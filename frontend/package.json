@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typeorm": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
+    "migration:run": "npm run typeorm migration:run",
+    "migration:generate": "npm run typeorm migration:generate"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",

@@ -17,8 +17,8 @@ cd backend
 # install dependencies
 npm install
 
-# run DB migrations (assuming PostgreSQL)
-npm run typeorm migration:run
+# install dependencies (Refer env_example to create .env file)
+touch .env
 
 # start dev server
 npm run start:dev
