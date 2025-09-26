@@ -1,0 +1,82 @@
+# ===============================
+# Node modules
+# ===============================
+**/node_modules/
+
+# ===============================
+# Build / compiled output
+# ===============================
+**/dist/
+**/build/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===============================
+# OS / System files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Test coverage
+# ===============================
+**/coverage/
+**/.nyc_output/
+
+# ===============================
+# IDEs and editors
+# ===============================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===============================
+# Environment files
+# ===============================
+**/.env
+**/.env.*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# ===============================
+# Temporary / runtime data
+# ===============================
+**/.temp/
+**/.tmp/
+**/pids/
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# ===============================
+# Node.js diagnostic reports
+# ===============================
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ===============================
+# Docker
+# ===============================
+**/docker-compose.override.yml
+**/Dockerfile*
