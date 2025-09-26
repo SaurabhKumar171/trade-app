@@ -36,6 +36,9 @@ cd frontend
 # install dependencies
 npm install
 
+# install dependencies (Refer env_example to create .env file)
+touch .env
+
 # run dev server
 npm run dev
 ```
